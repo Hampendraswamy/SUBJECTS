@@ -1,0 +1,19 @@
+<form #ref = 'ngForm' >
+    <label for="">First Name:</label>
+    <input type="text" [(ngModel)]="editusers" name="Fname"><br><br>
+    <br>
+    <br>
+    <label for="">Last Name</label>
+    <input type="text" [(ngModel)]="editusers" name="Lname"><br><br>
+    <br>
+    <br>
+    <label for="">Password</label>
+    <input type="text" [(ngModel)]="editusers" name="password"><br><br>
+    <br>
+    <br>
+    <button>Sign-In</button>
+</form>
+<button (click)="data()">Change</button>
+
+<p>{{Users}}</p>
+<!-- <p>{{editusers}}</p> -->
